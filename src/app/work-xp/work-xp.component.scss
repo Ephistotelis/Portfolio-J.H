@@ -1,0 +1,24 @@
+.companies {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    .company {
+        margin-top: 16px;
+        width: 30%;
+        text-align: left;
+        mark {
+            background-color: transparent;
+        }
+        #google {
+            color: green;
+        }
+        #facebook {
+            color: blue;
+        }
+        #instagram {
+            color: orange;
+        }
+    }
+}

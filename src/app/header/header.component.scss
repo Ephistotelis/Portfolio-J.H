@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    .nav {
+        display: flex;
+        height: 100%;
+        .link {
+            display: flex;
+            align-items: center;
+            margin-left: 8px;
+            margin-right: 8px;
+            height: 100%;
+            &:hover {
+                background-color: var(--Primary);
+                a {
+                    color: var(--white);
+                }
+            }
+            a {
+                text-decoration: none;
+                color: var(--grey_white);
+            }
+        }
+    }
+}

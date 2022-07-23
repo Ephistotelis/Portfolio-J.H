@@ -1,10 +1,10 @@
 .Mainpage {
-    width: 100%;
+    width: calc(100vw - 148px);
     max-width: 1920px;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 72px;
-    padding-bottom: 72px;
+    padding-left: 72px;
+    padding-right: 72px;
+    /*  padding-top: 40px;
+    padding-bottom: 40px; */
     //
-    background-color: var(--Base);
+    color: var(--white);
 }
