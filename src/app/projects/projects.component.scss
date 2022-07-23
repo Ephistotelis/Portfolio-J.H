@@ -1,0 +1,13 @@
+.projects {
+    display: flex;
+    justify-content: space-between;
+    .sides {
+        width: 48%;
+    }
+    .endpart {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        height: 40px;
+    }
+}

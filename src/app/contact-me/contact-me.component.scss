@@ -1,0 +1,25 @@
+.contact-me {
+    display: flex;
+    height: 500px;
+    input {
+        height: 28px;
+        width: 80%;
+    }
+    textarea {
+        width: 80%;
+    }
+    button {
+        width: 80%;
+        border: none;
+        height: 48px;
+        margin-left: 2px;
+        cursor: pointer;
+        background-color: var(--Primary);
+        font-family: 'Sen', sen-regular, latin;
+        color: var(--white);
+    }
+}
+
+.top {
+    justify-content: left;
+}

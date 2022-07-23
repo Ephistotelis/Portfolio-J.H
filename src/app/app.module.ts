@@ -11,6 +11,9 @@ import { WorkXpComponent } from './work-xp/work-xp.component';
 import { MidSection1Component } from './mid-section1/mid-section1.component';
 import { SkillsComponent } from './skills/skills.component';
 import { SkillTemplateComponent } from './skill-template/skill-template.component';
+import { ProjectsComponent } from './projects/projects.component';
+import { ProjectCardComponent } from './project-card/project-card.component';
+import { ContactMeComponent } from './contact-me/contact-me.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,10 @@ import { SkillTemplateComponent } from './skill-template/skill-template.componen
     WorkXpComponent,
     MidSection1Component,
     SkillsComponent,
-    SkillTemplateComponent
+    SkillTemplateComponent,
+    ProjectsComponent,
+    ProjectCardComponent,
+    ContactMeComponent
   ],
   imports: [
     BrowserModule,

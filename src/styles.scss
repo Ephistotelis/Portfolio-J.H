@@ -8,9 +8,67 @@
     --white: #FFFFFF;
     --grey_white: #EDEDED;
     --red: #F34E4E;
+    --BaseBright: #181823;
 }
 
 body {
     margin: 0;
     background-color: var(--Base);
+    font-family: 'Sen', sen-regular, latin;
+}
+
+//
+.parts {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bg-pic {
+    height: 50px;
+    width: 50px;
+    background-image: none;
+}
+
+.padding {
+    padding-left: 72px;
+    padding-right: 72px;
+}
+
+// Font
+
+/* sen-regular - latin */
+
+@font-face {
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''), url('./assets/fonts/sen-v7-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('./assets/fonts/sen-v7-latin-regular.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
+/* sen-700 - latin */
+
+@font-face {
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''), url('./assets/fonts/sen-v7-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('./assets/fonts/sen-v7-latin-700.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
+/* sen-800 - latin */
+
+@font-face {
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 800;
+    src: local(''), url('./assets/fonts/sen-v7-latin-800.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('./assets/fonts/sen-v7-latin-800.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
