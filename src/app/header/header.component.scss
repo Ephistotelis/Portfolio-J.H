@@ -2,10 +2,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 60px;
+    height: 80px;
     position: sticky;
     top: 0;
-    background-color: rgba($color: #181823, $alpha: 0.8);
+    background-color: var(--BaseBright);
+    opacity: 0.8;
     .nav {
         display: flex;
         height: 100%;
@@ -26,5 +27,8 @@
                 color: var(--grey_white);
             }
         }
+    }
+    &:hover {
+        opacity: 1.0;
     }
 }

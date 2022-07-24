@@ -1,8 +1,16 @@
 .whole {
-    height: 300px;
-    padding: 8px;
+    height: 700px;
+    //width: 80%;
     background-color: white;
-    margin-top: 16px;
-    margin-bottom: 16px;
-    .card {}
+    margin-top: 32px;
+    margin-bottom: 32px;
+    .cardtop {
+        height: 80%;
+    }
+    .cardbottom {
+        height: 20%;
+        background-color: grey;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
 }
