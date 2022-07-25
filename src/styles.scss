@@ -9,6 +9,7 @@
     --grey_white: #EDEDED;
     --red: #F34E4E;
     --BaseBright: #181823;
+    --BaseBrightShadow: #1d1d44;
 }
 
 body {
@@ -34,6 +35,11 @@ body {
 .padding {
     padding-left: 72px;
     padding-right: 72px;
+}
+
+.margin_topbot {
+    margin-top: 48px;
+    margin-bottom: 48px;
 }
 
 h1 {

@@ -1,0 +1,26 @@
+.skillcard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 200px;
+    height: 130px;
+    background-color: var(--BaseBright);
+    margin: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 10px var(--BaseBrightShadow);
+    .logo {
+        position: absolute;
+        top: -35px;
+        left: calc(50% - 35px);
+        background-color: var(--BaseBright);
+        width: 70px;
+        height: 70px;
+        border-radius: 100%;
+        box-shadow: 0px 0px 10px 10px var(--BaseBrightShadow);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

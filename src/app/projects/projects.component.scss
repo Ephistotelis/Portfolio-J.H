@@ -8,6 +8,21 @@
         display: flex;
         justify-content: left;
         align-items: center;
+        justify-content: center;
         height: 40px;
+        button {
+            border: none;
+            background-color: var(--Primary);
+            color: var(--white);
+            width: 40%;
+            height: 48px;
+            font-family: 'Sen', sen-regular, latin;
+            transition: all 0.5s ease-in-out;
+            &:hover {
+                cursor: pointer;
+                transform: scale(1.2);
+                box-shadow: 0px 0px 10px 10px var(--Primary);
+            }
+        }
     }
 }
