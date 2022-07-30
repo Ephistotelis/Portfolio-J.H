@@ -11,9 +11,12 @@
         height: 100%;
     }
     .bg-pic {
-        height: 50px;
-        width: 50px;
-        background-image: none;
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            object-position: top;
+        }
     }
 }
 

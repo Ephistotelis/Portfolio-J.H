@@ -14,6 +14,9 @@ import { SkillTemplateComponent } from './skill-template/skill-template.componen
 import { ProjectsComponent } from './projects/projects.component';
 import { ProjectCardComponent } from './project-card/project-card.component';
 import { ContactMeComponent } from './contact-me/contact-me.component';
+import { LegalnoticeModule } from './legalnotice/legalnotice.module';
+import { ImpressumModule } from './impressum/impressum.module';
+
 
 @NgModule({
   declarations: [
@@ -28,11 +31,13 @@ import { ContactMeComponent } from './contact-me/contact-me.component';
     SkillTemplateComponent,
     ProjectsComponent,
     ProjectCardComponent,
-    ContactMeComponent
+    ContactMeComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    LegalnoticeModule,
+    ImpressumModule
   ],
   providers: [],
   bootstrap: [AppComponent]
