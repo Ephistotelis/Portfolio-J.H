@@ -8,6 +8,12 @@
     background-color: var(--BaseBright);
     opacity: 0.8;
     z-index: 1;
+    .logo{
+        a{
+            text-decoration: none;
+            color: var(--grey_white);
+        }
+    }
     h2 {
         cursor: pointer;
     }

@@ -15,6 +15,8 @@ import { ProjectCardComponent } from './project-card/project-card.component';
 import { ContactMeComponent } from './contact-me/contact-me.component';
 import { LegalnoticeModule } from './_modules/legalnotice/legalnotice.module';
 import { ImpressumModule } from './_modules/impressum/impressum.module';
+import { AboutMeComponent } from './about-me/about-me.component';
+import { AppPageComponent } from './_app-page/app-page.component';
 
 
 @NgModule({
@@ -30,6 +32,8 @@ import { ImpressumModule } from './_modules/impressum/impressum.module';
     ProjectsComponent,
     ProjectCardComponent,
     ContactMeComponent,
+    AboutMeComponent,
+    AppPageComponent
   ],
   imports: [
     BrowserModule,
