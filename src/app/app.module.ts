@@ -3,8 +3,8 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { FooterComponent } from './footer/footer.component';
-import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './_modules/header-footer/footer/footer.component';
+import { HeaderComponent } from './_modules/header-footer/header/header.component';
 import { MainContentComponent } from './_main-content/main-content.component';
 import { IntroductionComponent } from './introduction/introduction.component';
 import { WorkXpComponent } from './work-xp/work-xp.component';
@@ -17,14 +17,14 @@ import { LegalnoticeModule } from './_modules/legalnotice/legalnotice.module';
 import { ImpressumModule } from './_modules/impressum/impressum.module';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { AppPageComponent } from './_app-page/app-page.component';
-import { AboutMeModule } from './_modules/about-me/about-me.module';
+import { AboutMePageModule } from './_modules/about-me-page/about-me-page.module';
+import { HeaderFooterModule } from './_modules/header-footer/header-footer.module';
+import { ProjectPageModule } from './_modules/project-page/project-page.module';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    FooterComponent,
-    HeaderComponent,
     MainContentComponent,
     IntroductionComponent,
     WorkXpComponent,
@@ -33,15 +33,19 @@ import { AboutMeModule } from './_modules/about-me/about-me.module';
     ProjectsComponent,
     ProjectCardComponent,
     ContactMeComponent,
-    AboutMeComponent,
-    AppPageComponent
+    AppPageComponent,
+    AboutMeComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     LegalnoticeModule,
     ImpressumModule,
-    AboutMeModule
+    AboutMePageModule,
+    HeaderFooterModule,
+    ProjectPageModule
+  ],
+  exports: [
   ],
   providers: [],
   bootstrap: [AppComponent]
