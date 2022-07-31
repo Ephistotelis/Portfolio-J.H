@@ -11,7 +11,9 @@
     --BaseBright: #181823;
     --BaseBrightShadow: #1d1d44;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 body {
     margin: 0;
     background-color: var(--Base);

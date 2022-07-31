@@ -17,6 +17,7 @@ import { LegalnoticeModule } from './_modules/legalnotice/legalnotice.module';
 import { ImpressumModule } from './_modules/impressum/impressum.module';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { AppPageComponent } from './_app-page/app-page.component';
+import { AboutMeModule } from './_modules/about-me/about-me.module';
 
 
 @NgModule({
@@ -39,7 +40,8 @@ import { AppPageComponent } from './_app-page/app-page.component';
     BrowserModule,
     AppRoutingModule,
     LegalnoticeModule,
-    ImpressumModule
+    ImpressumModule,
+    AboutMeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
