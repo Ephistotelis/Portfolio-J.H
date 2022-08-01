@@ -9,7 +9,8 @@ export class ProjectCardComponent implements OnInit {
   @Input('projectName') name : string = '';
   @Input('projectDescription') description: string = '';
   @Input('projectImage') url : string = '';
-  
+  @Input('projectGithub') github : string = '';
+  @Input('projectWebApp') web_app : string = '';
   constructor() { }
 
   ngOnInit(): void {
