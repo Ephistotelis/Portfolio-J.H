@@ -1,2 +1,5 @@
 <app-header></app-header>
+<div>
+    <div *ngFor="let project of projects, let i = index">{{project.projectName}}{{project.description}}{{project.image}}</div>
+</div>
 <app-footer></app-footer>

@@ -1,15 +1,16 @@
 .whole {
     height: 700px;
     //width: 80%;
-    background-color: white;
+    background-color: grey;
     margin-top: 48px;
     margin-bottom: 48px;
+    color: var(--Base);
     .cardtop {
         height: 70%;
     }
     .cardbottom {
         height: 30%;
-        background-color: grey;
+        background-color: var(--white);
         padding-left: 16px;
         padding-right: 16px;
         display: flex;

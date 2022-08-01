@@ -4,14 +4,14 @@
             <h2>Projects i´ve done so far:</h2>
         </div>
         <div>
-            <app-project-card></app-project-card>
-            <app-project-card></app-project-card>
+            <app-project-card projectName="{{projects[0]['projectName']}}" projectDescription="{{projects[0]['description']}}" projectImage="kekw" ></app-project-card>
+            <app-project-card projectName="{{projects[1]['projectName']}}" projectDescription="{{projects[1]['description']}}" projectImage="kekw"></app-project-card>
         </div>
     </div>
     <div class="sides">
         <div>
-            <app-project-card></app-project-card>
-            <app-project-card></app-project-card>
+            <app-project-card projectName="{{projects[2]['projectName']}}" projectDescription="{{projects[2]['description']}}" projectImage="kekw"></app-project-card>
+            <app-project-card projectName="{{projects[3]['projectName']}}" projectDescription="{{projects[3]['description']}}" projectImage="kekw"></app-project-card>
 
         </div>
         <div class="endpart"><button [routerLink]="['/projects']">View all Projects</button></div>

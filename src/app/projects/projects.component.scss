@@ -2,14 +2,14 @@
     display: flex;
     justify-content: space-between;
     .sides {
-        width: 48%;
+        width: 45%;
     }
     .endpart {
         display: flex;
         justify-content: left;
         align-items: center;
         justify-content: center;
-        height: 40px;
+        height: 80px;
         button {
             border: none;
             background-color: var(--Primary);
