@@ -6,14 +6,18 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./project-card.component.scss']
 })
 export class ProjectCardComponent implements OnInit {
-  @Input('projectName') name : string = '';
-  @Input('projectDescription') description: string = '';
-  @Input('projectImage') url : string = '';
-  @Input('projectGithub') github : string = '';
-  @Input('projectWebApp') web_app : string = '';
-  constructor() { }
+
+  @Input() projecttext : any;
+  project : any;
+  constructor() {
+   
+   }
 
   ngOnInit(): void {
+    this.projectsToJson()
   }
-
-}
+  projectsToJson(){
+    let text = JSON.parse(this.projecttext)
+    this.project = text
+  }
+} 

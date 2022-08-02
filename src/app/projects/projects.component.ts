@@ -27,9 +27,13 @@ export class ProjectsComponent implements OnInit {
   'image' : 'URL',
   'github_url' : 'https://github.com/Ephistotelis',
 'web_app_url' : '#'}]
-  constructor() { }
+  constructor() { 
+  }
 
   ngOnInit(): void {
   }
 
+  projectsToText(index:number){
+   return JSON.stringify(this.projects[index])
+  }
 }

@@ -1,10 +1,10 @@
 <div class="whole">
-    <div class="cardtop"><img src="" alt="{{url}}"></div>
+    <div class="cardtop"><img src="" alt="{{project['image']}}"></div>
     <div class="cardbottom">
-        <h3>{{name}}</h3>
-        <p>{{description}}</p>
+        <h3>{{project['projectName']}}</h3>
+        <p>{{project['projectDescription']}}</p>
         <div class="buttons">
-           <a href="{{github}}" target="_blank">View Code</a><a href="{{web_app}}" target="_blank">Open Project</a>
+            <a href="{{project['github_url']}}" target="_blank">View Code</a><a href="{{project['web_app_url']}}" target="_blank">Open Project</a>
         </div>
     </div>
 </div>
