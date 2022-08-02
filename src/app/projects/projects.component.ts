@@ -11,8 +11,8 @@ export class ProjectsComponent implements OnInit {
   'image' : 'URL',
   'github_url' : 'https://github.com/Ephistotelis',
 'web_app_url' : '#'},
-  {'projectName' : 'CRM',
-  'description' : 'Simple CRM to manage customers, user, and employees.',
+  {'projectName' : 'Pokedex',
+  'description' : 'Pokedex based on the open Pokeapi v2',
   'image' : 'URL',
     'github_url' : 'https://github.com/Ephistotelis',
     'web_app_url' : '#'

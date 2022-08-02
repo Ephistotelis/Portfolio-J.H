@@ -21,7 +21,8 @@
             &:hover {
                 cursor: pointer;
                 transform: scale(1.2);
-                box-shadow: 0px 0px 10px 10px var(--Primary);
+                box-shadow: 0px 0px 10px 10px var(--Hover);
+                background-color: var(--Hover);
             }
         }
     }
