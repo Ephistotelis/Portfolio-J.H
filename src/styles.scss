@@ -11,13 +11,26 @@
     --BaseBright: #181823;
     --BaseBrightShadow: #1d1d44;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
+
 body {
+    max-width: 100vw;
     margin: 0;
     background-color: var(--Base);
     font-family: 'Sen', sen-regular, latin;
+    /* scrollbar*/
+    -ms-overflow-style: none;
+    /* for Internet Explorer, Edge */
+    scrollbar-width: none;
+    /* for Firefox */
+    overflow-y: scroll;
+}
+
+body::-webkit-scrollbar {
+    display: none;
 }
 
 //

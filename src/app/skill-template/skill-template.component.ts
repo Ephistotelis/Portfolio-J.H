@@ -11,7 +11,7 @@ export class SkillTemplateComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    this.skillToJson()
+    this.skillToJson();
   }
   skillToJson(){
     let text = JSON.parse(this.skilljson)

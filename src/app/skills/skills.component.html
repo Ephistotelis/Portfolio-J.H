@@ -4,7 +4,7 @@
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque debitis inventore, dicta ab cum quam, deserunt quod quis eveniet quidem maxime vitae id doloremque excepturi fugiat explicabo voluptatibus blanditiis? Labore?</p>
     </div>
     <div class="part2">
-        <app-skill-template skilljson="{{skillsToText(0)}}"></app-skill-template>
+        <app-skill-template *ngFor="let skill of skills, let i = index" skilljson="{{skillsToText(i)}}"></app-skill-template>
     </div>
 
 </div>
