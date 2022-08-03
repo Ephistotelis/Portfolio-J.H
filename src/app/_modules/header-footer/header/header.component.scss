@@ -5,16 +5,14 @@
     height: 80px;
     position: sticky;
     top: 0;
-    background-color: var(--BaseBright);
     opacity: 0.8;
-    z-index: 1;
-    box-shadow: 0 4px 2px -2px var(--BaseBrightShadow);
+    z-index: 3;
     .logo {
         a {
             text-decoration: none;
             color: var(--grey_white);
             &:hover {
-                color: var(--Hover);
+                color: var(--Primary);
             }
         }
     }
@@ -33,7 +31,7 @@
             height: 100%;
             width: 100px;
             &:hover {
-                background-color: var(--Hover);
+                background-color: var(--Primary);
                 a {
                     color: var(--white);
                 }
@@ -46,5 +44,7 @@
     }
     &:hover {
         opacity: 1.0;
+        background-color: var(--BaseBright);
+        box-shadow: 0 4px 2px -2px var(--BaseBrightShadow);
     }
 }

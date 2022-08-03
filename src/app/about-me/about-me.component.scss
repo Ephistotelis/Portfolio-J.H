@@ -4,20 +4,19 @@
     background-color: var(--white);
     color: var(--Base);
     .parts {
-        width: 50%;
+        width: 45%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         height: 100%;
     }
     .bg-pic {
-       
-        /*img {
-            height: 100%;
-            width: 100%;
-            object-fit: cover;
-            object-position: top;
-        }*/
+        position: absolute;
+        right: 0;
+        height: 600px;
+        width: 50% !important;
+        background-image: url(/assets/image/ME/Me1.jpeg);
+        background-size: cover;
     }
 }
 

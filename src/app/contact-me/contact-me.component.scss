@@ -5,9 +5,13 @@
     input {
         height: 28px;
         width: 80%;
+        background-color: var(--BaseBright);
+        border: none;
     }
     textarea {
         width: 80%;
+        background-color: var(--BaseBright);
+        border: none;
     }
     button {
         width: 80%;

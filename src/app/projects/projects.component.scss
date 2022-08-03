@@ -9,7 +9,10 @@
         justify-content: left;
         align-items: center;
         justify-content: center;
-        height: 80px;
+        height: 150px;
+        h2 {
+            margin: 0;
+        }
         button {
             border: none;
             background-color: var(--Primary);
