@@ -34,3 +34,11 @@
 .top {
     justify-content: left;
 }
+
+.form {
+    p {
+        border-bottom: 1px solid var(--white);
+        padding-bottom: 2px;
+        width: fit-content;
+    }
+}
