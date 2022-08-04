@@ -56,7 +56,9 @@ body::-webkit-scrollbar {
     margin-top: 48px;
     margin-bottom: 48px;
 }
-
+.border_bottom{
+    border-bottom: 1px solid var(--BaseBright);
+}
 h1 {
     font-size: 117px;
 }

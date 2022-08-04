@@ -12,7 +12,7 @@ export class ProjectsComponent implements OnInit {
   'github_url' : 'https://github.com/Ephistotelis',
 'web_app_url' : '#'},
   {'projectName' : 'Pokedex',
-  'description' : 'Pokedex based on the open Pokeapi v2',
+  'description' : 'Pokedex based on the open Pokeapi v2. ',
   'image' : 'URL',
     'github_url' : 'https://github.com/Ephistotelis',
     'web_app_url' : '#'
