@@ -32,9 +32,13 @@
         flex-wrap: wrap;
         flex-direction: column;
         a {
+            width: 50%;
+            text-align: center;
             &:hover {
-                background-color: var(--Hover);
+                background-color: var(--Primary);
                 color: var(--white);
+                border: 2px solid var(--Hover);
+                border-radius: 3px;
             }
         }
     }
