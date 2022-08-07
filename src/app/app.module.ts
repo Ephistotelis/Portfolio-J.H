@@ -1,10 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { FooterComponent } from './_modules/header-footer/footer/footer.component';
-import { HeaderComponent } from './_modules/header-footer/header/header.component';
 import { MainContentComponent } from './_main-content/main-content.component';
 import { IntroductionComponent } from './introduction/introduction.component';
 import { WorkXpComponent } from './work-xp/work-xp.component';
@@ -23,6 +20,7 @@ import { ProjectPageModule } from './_modules/project-page/project-page.module';
 
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -36,6 +34,7 @@ import { ProjectPageModule } from './_modules/project-page/project-page.module';
     ContactMeComponent,
     AppPageComponent,
     AboutMeComponent,
+    
   ],
   imports: [
     BrowserModule,
@@ -44,7 +43,7 @@ import { ProjectPageModule } from './_modules/project-page/project-page.module';
     ImpressumModule,
     AboutMePageModule,
     HeaderFooterModule,
-    ProjectPageModule
+    ProjectPageModule,
   ],
   exports: [
   ],

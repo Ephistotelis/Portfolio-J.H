@@ -14,6 +14,6 @@
             <app-project-card projecttext="{{projectsToText(3)}}"></app-project-card>
 
         </div>
-        <div class="endpart"><button [routerLink]="['/projects']">View all Projects</button></div>
+        <div class="endpart"><button [routerLink]="['/projects']" (click)="scrollToTop()">View all Projects</button></div>
     </div>
 </div>

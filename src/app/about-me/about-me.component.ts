@@ -11,5 +11,7 @@ export class AboutMeComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  scrollToTop(){
+    document.documentElement.scrollTop = 0;
+  }
 }
