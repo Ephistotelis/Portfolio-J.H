@@ -22,6 +22,7 @@ import { HeaderFooterModule } from './_modules/header-footer/header-footer.modul
 import { ProjectPageModule } from './_modules/project-page/project-page.module';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -34,7 +35,7 @@ import { ProjectPageModule } from './_modules/project-page/project-page.module';
     ProjectCardComponent,
     ContactMeComponent,
     AppPageComponent,
-    AboutMeComponent
+    AboutMeComponent,
   ],
   imports: [
     BrowserModule,

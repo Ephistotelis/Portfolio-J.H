@@ -9,17 +9,19 @@ export class ProjectPageComponent implements OnInit {
   projects:Array<any> = [
     {'projectName' : 'Skarkie',
     'description' : 'Sharkie is a small object oriented Jump & Run game.',
-    'image' : 'URL'},
+    'image' : 'assets/image/project_img/sharkie_placeholder_MU.png'},
     {'projectName' : 'CRM',
     'description' : 'Simple CRM to manage customers, user, and employees.',
-    'image' : 'URL'
+    'image' : 'assets/image/project_img/sharkie_placeholder_MU.png'
     },
     {'projectName' : 'Portfolio',
     'description' : 'My own portfolio is a huge project aswell. This site is created with Angular.',
-    'image' : 'URL'}]
+    'image' : 'assets/image/project_img/sharkie_placeholder_MU.png'}]
   constructor() { }
 
   ngOnInit(): void {
   }
-
+  projectsToText(index:number){
+    return JSON.stringify(this.projects[index])
+   }
 }

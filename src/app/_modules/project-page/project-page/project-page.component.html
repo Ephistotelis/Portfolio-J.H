@@ -1,5 +1,6 @@
 <app-header></app-header>
-<div>
-    <div *ngFor="let project of projects, let i = index">{{project.projectName}}{{project.description}}{{project.image}}</div>
+<div class="main" *ngFor="let project of projects, let i = index">
+    <!-- <div *ngFor="let project of projects, let i = index">{{project.projectName}}{{project.description}}{{project.image}}</div> -->
+    <app-project-card-large projecttext="{{projectsToText(i)}}"></app-project-card-large>
 </div>
 <app-footer></app-footer>

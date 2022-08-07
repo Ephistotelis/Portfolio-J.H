@@ -1,8 +1,8 @@
 <div class="skills padding margin_topbot border_bottom">
     <div class="part1">
-        <h2>Skillset</h2><br>
-        <p>Here you can check my current skillset! Until now my main stack is based on front-end technologies. I started building my projects with HTML, CSS and JS. Nowadays i am mainly using Angular as framwork, where I also learned to use Typescript and SCSS.
-             I am already on it to get experience in back-end technologies. As soon as I am confident with it, I am gonna add it to my skillset aswell. I already worked with Google Firebase, Databases and API´s.</p>
+        <h2 class="textglow">Skillset</h2><br>
+        <p>Here you can check my current skillset! Until now my main stack is based on front-end technologies. I started building my projects with HTML, CSS and JS. Nowadays i am mainly using Angular as framwork, where I also learned to use Typescript and
+            SCSS. I am already on it to get experience in back-end technologies. As soon as I am confident with it, I am gonna add it to my skillset aswell. I already worked with Google Firebase, Databases and API´s.</p>
     </div>
     <div class="part2">
         <app-skill-template *ngFor="let skill of skills, let i = index" skilljson="{{skillsToText(i)}}"></app-skill-template>
