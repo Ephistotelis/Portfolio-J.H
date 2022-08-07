@@ -10,12 +10,12 @@ export class ProjectlistComponent implements OnInit {
   'description' : 'Sharkie is a small object oriented Jump & Run game.',
   'image' : 'assets/image/project_img/sharkie_placeholder_MU.png',
   'github_url' : 'https://github.com/Ephistotelis/Sharkie',
-'web_app_url' : '#'},
+'web_app_url' : 'https://joshua-herrmann.developerakademie.net/DevAc_Pjk_15_Sharkie/index.html'},
   {'projectName' : 'Pokedex',
   'description' : 'Pokedex based on the open Pokeapi v2. ',
   'image' : 'assets/image/project_img/pokedex_placeholder_MU.png',
     'github_url' : 'https://github.com/Ephistotelis/Pokedex',
-    'web_app_url' : '#'
+    'web_app_url' : 'https://joshua-herrmann.developerakademie.net/DevAc_Pjk_14_Pokedex/index.html'
   },
   {'projectName' : 'Portfolio',
   'description' : 'My own portfolio is a huge project aswell. This site is created with Angular.',
