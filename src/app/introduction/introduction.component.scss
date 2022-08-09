@@ -5,6 +5,7 @@
     height: 90vh;
     text-align: left;
     padding-left: 50%;
+    position: relative;
     .text {
         z-index: 2;
     }
@@ -13,7 +14,6 @@
         left: 0;
         top: 120px;
         height: 80%;
-        width: 100%;
         width: 60%;
         background-image: url("/assets/image/ME/Me1.jpeg");
         background-size: cover;

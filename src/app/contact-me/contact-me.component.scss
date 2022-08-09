@@ -2,16 +2,21 @@
     display: flex;
     gap: 16px;
     height: 500px;
+    a {
+        color: var(--Primary)
+    }
     input {
         height: 28px;
         width: 80%;
         background-color: var(--BaseBright);
         border: none;
+        color: var(--white);
     }
     textarea {
         width: 80%;
         background-color: var(--BaseBright);
         border: none;
+        color: var(--white);
     }
     button {
         width: 80%;
