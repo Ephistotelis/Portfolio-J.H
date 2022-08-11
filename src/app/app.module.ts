@@ -17,7 +17,9 @@ import { AppPageComponent } from './_app-page/app-page.component';
 import { AboutMePageModule } from './_modules/about-me-page/about-me-page.module';
 import { HeaderFooterModule } from './_modules/header-footer/header-footer.module';
 import { ProjectPageModule } from './_modules/project-page/project-page.module';
-
+import {MatMenuModule} from '@angular/material/menu';
+import {MatIconModule} from '@angular/material/icon';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 
@@ -34,7 +36,7 @@ import { ProjectPageModule } from './_modules/project-page/project-page.module';
     ContactMeComponent,
     AppPageComponent,
     AboutMeComponent,
-    
+   
   ],
   imports: [
     BrowserModule,
@@ -44,6 +46,9 @@ import { ProjectPageModule } from './_modules/project-page/project-page.module';
     AboutMePageModule,
     HeaderFooterModule,
     ProjectPageModule,
+    MatMenuModule,
+    MatIconModule,
+    BrowserAnimationsModule
   ],
   exports: [
   ],

@@ -30,3 +30,13 @@
         }
     }
 }
+
+@media (max-width: 450px) {
+    .projects {
+        flex-direction: column;
+        text-align: center;
+        .sides {
+            width: 100%;
+        }
+    }
+}

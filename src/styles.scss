@@ -119,6 +119,13 @@
         }
     }
     
+    @media (max-width: 450px) {
+        .padding {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+    }
+    
     // Font
     /* sen-regular - latin */
     
@@ -150,3 +157,5 @@
         url('./assets/fonts/sen-v7-latin-800.woff') format('woff');
         /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
     }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

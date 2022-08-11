@@ -10,4 +10,13 @@
         <div class="link"><a href="#skills">Skills</a></div>
         <div class="link"><a href="#contact_me">Contact</a></div>
     </div>
+    <div class="dropdown">
+        <button (click)="toggleDropDown()">
+            <mat-icon>menu</mat-icon>
+        </button>
+    </div>
+</div>
+<div class="links" [ngClass]="{'display': dropdown}">
+    <button (click)="toggleDropDown()"><mat-icon>close</mat-icon></button>
+    <a href="#projects" (click)="toggleDropDown()">Projects</a><a href="#about_me" (click)="toggleDropDown()">About Me</a><a href="#skills" (click)="toggleDropDown()">Skills</a><a href="#contact_me" (click)="toggleDropDown()">Contact Me</a>
 </div>
