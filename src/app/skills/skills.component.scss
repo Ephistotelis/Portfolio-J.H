@@ -19,3 +19,26 @@
     flex-direction: row;
     justify-content: center;
 }
+
+@media(max-width: 900px) {
+    .skills {
+        display: flex;
+        flex-direction: column;
+    }
+    .part1 {
+        width: 100%;
+    }
+    .part2 {
+        width: 100%;
+    }
+}
+
+@media(max-width: 450px) {
+    .skills {
+        text-align: center;
+    }
+    .part1 {
+        align-items: center;
+        margin-bottom: 50px;
+    }
+}

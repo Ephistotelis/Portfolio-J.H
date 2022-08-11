@@ -5,7 +5,7 @@
     color: var(--Base);
     position: relative;
     .parts {
-        width: 45%;
+        width: 50%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -38,5 +38,19 @@
         }
         text-decoration: none;
         color: var(--Base);
+    }
+}
+
+@media(max-width: 450px) {
+    .parts {
+        width: 100% !important;
+    }
+    .bg-pic {
+        display: none !important;
+    }
+    .left {
+        z-index: 1;
+        text-align: center;
+        align-items: center;
     }
 }
