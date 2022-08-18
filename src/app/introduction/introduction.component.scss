@@ -17,6 +17,7 @@
         width: 60%;
         background-image: url("/assets/image/ME/31341-64-300dpi.jpg");
         background-size: cover;
+        background-position: center;
         z-index: 1;
     }
     .bg {
@@ -30,6 +31,9 @@
 }
 
 @media(max-width: 450px) {
+    .pic {
+        background-image: url("/assets/image/ME/WhatsApp Image 2022-08-14 at 01.20.31 (1).jpeg") !Important;
+    }
     .introduction {
         padding-left: 20px;
         text-align: center;
