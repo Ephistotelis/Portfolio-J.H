@@ -1,4 +1,25 @@
 .buttons {
     display: flex;
     justify-content: space-evenly;
+    button{
+        padding: 10px;
+        min-width: 10%;
+        background-color: var(--Primary);
+        border: none;
+        border-radius: 5px;
+        box-shadow: 0 0 10px 10px var(--BaseBright);
+        color: var(--white);
+        &:hover{
+            transform: scale(1.1);
+            background-color: var(--Hover);
+            color: var(--grey_white);
+            cursor: pointer;
+        }
+    }
 }
+
+.active{
+    background-color: var(--Hover) !important;
+}
+
+

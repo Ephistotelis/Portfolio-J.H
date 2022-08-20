@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ProjectlistComponent } from 'src/app/__projectlist/projectlist.component';
+import { ProjectlistserviceService } from 'src/app/__projectlist/projectlistservice.service';
 
 
 @Component({
@@ -11,8 +11,8 @@ export class ProjectPageComponent implements OnInit {
   projects:Array<any> = [];
 
   
-  constructor(projectlist: ProjectlistComponent) {  
-    this.projects = projectlist.getList();
+  constructor(projectlist: ProjectlistserviceService) {  
+    this.projects = projectlist.projects;
   }
  
   

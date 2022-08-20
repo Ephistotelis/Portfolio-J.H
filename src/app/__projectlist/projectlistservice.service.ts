@@ -1,11 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import { Injectable } from '@angular/core';
 
-@Component({
-  selector: 'app-projectlist',
-  templateUrl: './projectlist.component.html',
-  styleUrls: ['./projectlist.component.scss']
+@Injectable({
+  providedIn: 'root'
 })
-export class ProjectlistComponent implements OnInit {
+export class ProjectlistserviceService {
   projects:Array<any> = [{'projectName' : 'Skarkie',
   'description' : 'Sharkie is a small object oriented Jump & Run game.',
   'image' : 'assets/image/project_img/sharkie_mockup.png',
@@ -32,14 +30,5 @@ export class ProjectlistComponent implements OnInit {
   'image' : 'assets/image/project_img/mockup_placeholder.png',
   'github_url' : 'https://github.com/Ephistotelis',
 'web_app_url' : '#'}]
-
-
   constructor() { }
-
-  ngOnInit(): void {
-  }
-  
-  getList(){
-    return this.projects
-  }
 }

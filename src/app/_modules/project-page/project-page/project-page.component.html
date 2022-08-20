@@ -1,5 +1,5 @@
 <app-header></app-header>
-<div class="buttons"><button>All</button><button>Angular</button><button>Javescript</button></div>
+<div class="buttons margin_topbot"><button id="all">All</button><button id="angular">Angular</button><button id="javascript">Javescript</button></div>
 <div class="main" *ngFor="let project of projects, let i = index">
     <!-- <div *ngFor="let project of projects, let i = index">{{project.projectName}}{{project.description}}{{project.image}}</div> -->
     <app-project-card-large projecttext="{{projectsToText(i)}}"></app-project-card-large>
