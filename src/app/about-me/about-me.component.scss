@@ -5,7 +5,7 @@
     color: var(--Base);
     position: relative;
     .parts {
-        width: 50%;
+        width: calc(50% - 72px);
         display: flex;
         flex-direction: column;
         justify-content: center;
