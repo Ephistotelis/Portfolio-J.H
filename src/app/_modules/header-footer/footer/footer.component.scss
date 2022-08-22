@@ -24,9 +24,10 @@
                 color: var(--grey_white);
             }
         }
-        .logos{
-            img{
-                background-color: rgba(198, 198, 198, 0.4);
+        .logos {
+            img {
+                background-color: rgba(198, 198, 198, 0.2);
+                box-shadow: 0 0 10px 10px rgba(198, 198, 198, 0.2);
                 border-radius: 100%;
                 padding: 5px;
             }
@@ -45,7 +46,6 @@
             &:hover {
                 background-color: var(--Primary);
                 color: var(--white);
-               
             }
         }
     }

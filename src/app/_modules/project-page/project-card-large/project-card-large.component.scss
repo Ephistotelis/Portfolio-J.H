@@ -27,7 +27,7 @@
                     h2 {
                         border-bottom: 1px solid var(--Base);
                     }
-                    p{
+                    p {
                         padding-left: 10px;
                         padding-right: 10px;
                     }
@@ -59,22 +59,22 @@
                     }
                 }
             }
-
+            
             @media (max-width: 450px) {
-    .card{
-        flex-direction: column;
-        height: fit-content;
-        .logo{
-            width: 100%;
-            margin-bottom: 0;
-            height: 40% !important;
-        }
-        .text{
-            width: 100%;
-            margin-top: 0;
-            h2{
-                border-bottom: none;
-            }
-        }
-    }
+                .card {
+                    flex-direction: column;
+                    height: fit-content;
+                    .logo {
+                        width: 100%;
+                        margin-bottom: 0;
+                        height: 40% !important;
+                    }
+                    .text {
+                        width: 100%;
+                        margin-top: 0;
+                        h2 {
+                            border-bottom: none;
+                        }
+                    }
+                }
             }

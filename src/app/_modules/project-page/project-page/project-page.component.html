@@ -1,7 +1,6 @@
 <app-header></app-header>
-<div class="buttons margin_topbot"><button id="all">All</button><button id="angular">Angular</button><button id="javascript">Javescript</button></div>
+<div class="buttons margin_topbot"><button (click)="filterAll()" id="all">All</button><button (click)="filterAngular()" id="angular">Angular</button><button (click)="filterJavascript()" id="javascript">Javescript</button></div>
 <div class="main" *ngFor="let project of projects, let i = index">
-    <!-- <div *ngFor="let project of projects, let i = index">{{project.projectName}}{{project.description}}{{project.image}}</div> -->
-    <app-project-card-large projecttext="{{projectsToText(i)}}"></app-project-card-large>
+    <app-project-card-large projecttext="{{projectsToText(i)}}" *ngIf="toggleByTech(projects[i]['technologie'])"></app-project-card-large>
 </div>
 <app-footer></app-footer>

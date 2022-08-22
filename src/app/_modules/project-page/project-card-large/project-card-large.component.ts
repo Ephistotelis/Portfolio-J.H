@@ -17,4 +17,5 @@ export class ProjectCardLargeComponent implements OnInit {
     let text = JSON.parse(this.projecttext)
     this.project = text
   }
+
 }
