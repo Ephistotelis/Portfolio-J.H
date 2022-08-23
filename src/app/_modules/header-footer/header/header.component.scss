@@ -18,7 +18,7 @@
     }
     h2 {
         &:hover {
-            background-image: linear-gradient(90deg, #5221E6, #D18CFF, #7E46FF, #A868FF);
+            background-image: linear-gradient(180deg, #5221E6, #D18CFF, #7E46FF, #A868FF);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
@@ -40,9 +40,6 @@
                 a {
                     color: var(--white);
                     transform: scale(1.1);
-                    background-image: radial-gradient( #5221E6, #D18CFF);
-                    -webkit-background-clip: text;
-                    -webkit-text-fill-color: transparent;
                 }
             }
             a {
