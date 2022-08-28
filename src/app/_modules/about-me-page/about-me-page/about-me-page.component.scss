@@ -138,3 +138,54 @@ h3 {
         padding-right: 40px;
     }
 }
+
+.Mainpage {
+    width: 100vw;
+    max-width: 1920px;
+    /*  padding-top: 40px;
+    padding-bottom: 40px; */
+    //
+    color: var(--white);
+}
+
+@media (max-width: 450px) {
+    .rowleft {
+        justify-content: center;
+        flex-direction: column;
+        .text {
+            width: 100%;
+            padding-left: 0;
+            text-align: center;
+            background-color: transparent !important;
+        }
+    }
+    .row {
+        justify-content: center;
+        flex-direction: column-reverse;
+        .text {
+            width: 100%;
+            padding-right: 0;
+            text-align: center;
+            background-color: transparent !important;
+        }
+    }
+    .picleft2 {
+        position: relative;
+        width: 100% !important;
+    }
+    .picleft1 {
+        position: relative;
+        width: 100% !important;
+    }
+    .pic1 {
+        position: relative;
+        width: 100% !important;
+    }
+    .pic2 {
+        position: relative;
+        width: 100% !important;
+    }
+    p {
+        padding-inline-start: 0px;
+    }
+}

@@ -70,10 +70,10 @@
     .form {
         width: 100%;
         input {
-            width: 100%;
+            width: calc(100% - 20px);
         }
         textarea {
-            width: 100%;
+            width: calc(100% - 20px);
         }
         button {
             width: 100%;
