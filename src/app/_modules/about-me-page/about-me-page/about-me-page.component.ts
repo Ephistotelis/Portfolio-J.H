@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ProjectlistserviceService } from 'src/app/__projectlist/projectlistservice.service';
 
 @Component({
   selector: 'app-about-me-page',
@@ -6,10 +7,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./about-me-page.component.scss']
 })
 export class AboutMePageComponent implements OnInit {
-
-  constructor() { }
+  language:string = 'eng'
+  constructor(public data: ProjectlistserviceService) { }
 
   ngOnInit(): void {
   }
-
+  toggleLan(){
+    this.language=='eng'? this.language='de' : this.language='eng'
+  }
 }

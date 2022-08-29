@@ -1,15 +1,16 @@
 <div class="Mainpage">
     <app-header></app-header>
+
     <div class="padding">
         <div class="me">
             <div class="metext">
 
                 <div>
-                    <h3>Hi I am Joshua Herrmann,</h3>
-                    <p> a Front-end Developer based in Germany! </p>
+                    <h3>{{data['aboutMe'][0]['headerH3'][language]}}</h3>
+                    <p> {{data['aboutMe'][0]['headerP1'][language]}}</p>
                 </div>
                 <div>
-                    <p>You're welcome to learn more about my story:</p>
+                    <p>{{data['aboutMe'][0]['headerP2'][language]}}</p>
                 </div>
 
             </div>
@@ -18,40 +19,34 @@
         <div class="rowleft">
             <div class="parts picleft2"></div>
             <div class="parts text">
-                <h3>Das bin ich:</h3>
-                <p>Mein Name ist Joshua Herrmann, ich bin 24 Jahre jung, aufgewachsen und wohnhaft in Hannover/Niedersachen. 2020 habe ich durch das Absolvieren eines FSJ's meine allgemeine Fachhochschulreife erlangt. Ende 2021 began ich mein Studium im
-                    Bereich der Sozialen Arbeit. Nach einem Semester habe ich jedoch die Erfahrung gemacht, dass das Studium in diesem Bereich nichts für mich ist. Stattdessen habe ich mich in dieser Zeit ebenfalls mehr mit dem Programmieren befasst und
-                    mich für ein Selbststudium bei der Developer Academie entschieden. Um mir diesen Wunsch zu erfüllen und finanzieren, arbeite ich Vollzeit in einem Krankenhaus in Hannover.</p>
+                <h3>{{data['aboutMe'][1]['titel'][language]}}</h3>
+                <p>{{data['aboutMe'][1]['text'][language]}}</p>
             </div>
         </div>
         <div class="row">
             <div class="parts text">
-                <h3>Wie kam ich zum Programmieren?</h3>
-                <p>Seit meiner Jugend bin ich an Videospielen interessiert und habe daher einige Zeit meines Lebens vor dem Computer verbracht. Durch dieses Hobby kam ich 2019 in die Position des Servermanagers von einem der größten DayZ gaming server der
-                    Welt. Neben den leiten eines 20 Kopf großen Teams, dem Pflegen einer Spielerbase von über 9000 Membern, kamen ebenfalls technische Arbeiten auf mich zu. Dort habe ich meine erste Erfahrungen mit JSON's und Funktionen gemacht. Schon
-                    damals versuchte ich mir das Programmieren autodidaktisch beizubringen, jedoch scheiterte ich zu dieser Zeit am falschem Mindset. Da es mich allerdings immer wieder in diese Richtung zog und mein Interesse daran, das Programmieren
-                    zu erlernen nie verschwand, beschloss ich es 2022 erneut zu probieren. Bevor ich meine ersten Beiträge und Tutorials ansah, wusste ich, dass ich aus meinem vergangenden Versuch lernen musste. Daher war das A und O für mich zunächst
-                    das richtige Mindset zu bekommen.</p>
+                <h3>{{data['aboutMe'][2]['titel'][language]}}</h3>
+                <p>{{data['aboutMe'][2]['text'][language]}}</p>
             </div>
             <div class="parts pic1"></div>
         </div>
         <div class="rowleft">
             <div class="parts picleft1"></div>
             <div class="parts text">
-                <h3>Was reizt mich am Programmieren?</h3>
-                <p> Mit dem richtigen Mindset habe ich das Debuggen, das tiefere Verstehen der Thematiken, Spachen und Frameworks und das Aufbauen großer Projekte von der ersten Zeile Code an lieben gelernt. Durch das jahrelange Zocken, habe ich kein Problem
-                    damit, mehrere stunden lang vor dem Computer zu sitzen und konzentriert zu arbeiten. Das Programmieren hat das Zocken bei mir nahe zu komplett abgelöst. Mein Wunsch, einen Job auszuüben der mich fordert, abwechslungsreich ist, zukunfts
-                    orientiert ist und vor allem, mir sehr viel Freude bereitet, ist mit dem Karriereweg des Programmierers erfüllt.</p>
+                <h3>{{data['aboutMe'][3]['titel'][language]}}</h3>
+                <p> {{data['aboutMe'][3]['text'][language]}}</p>
             </div>
         </div>
         <div class="row">
             <div class="parts text">
-                <h3>Was sind meine Ziele?</h3>
-                <p> Mit dem Abschluss des Front-end Teil der Developer Academie, liegt mein Fokus zunächst darauf, meinen ersten Job in der IT zu erlangen. Während dessen bin ich dabei den Back-end Teil zu absolvieren. Zusammen mit der Erfahrung in meinem
-                    Job, sollen meine Fähigkeiten als Fullstack Developer befestigt werden. Auf lange Sicht ist mein bisheriges Ziel, mich auf Back-end Technologien zu spezialisieren. Vor allem die IT-Security hat es mir angetan.</p>
+                <h3>{{data['aboutMe'][4]['titel'][language]}}</h3>
+                <p> {{data['aboutMe'][4]['text'][language]}}</p>
             </div>
             <div class="parts pic2"></div>
         </div>
+    </div>
+    <div class="tgglBtn">
+        <button (click)="toggleLan()"><img src="assets/image/language_flag.png" alt=""></button>
     </div>
     <app-footer></app-footer>
 </div>

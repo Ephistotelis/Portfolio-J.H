@@ -142,10 +142,30 @@ h3 {
 .Mainpage {
     width: 100vw;
     max-width: 1920px;
-    /*  padding-top: 40px;
-    padding-bottom: 40px; */
-    //
     color: var(--white);
+}
+
+.tgglBtn {
+    position: sticky;
+    bottom: 20px;
+    margin-left: calc(100% - 50px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    width: fit-content;
+    button {
+        width: 25px;
+        height: 25px;
+        border: none;
+        background-color: transparent;
+        img {
+            width: 25px;
+            height: 25px;
+            cursor: pointer;
+            border: 1px solid white;
+        }
+    }
 }
 
 @media (max-width: 450px) {
