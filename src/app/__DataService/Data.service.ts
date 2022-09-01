@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 @Injectable({
   providedIn: 'root'
 })
-export class ProjectlistserviceService {
+export class DataService {
   projects:Array<any> = [{'projectName' : 'Skarkie',
   'description' : 'Sharkie is a small object-oriented Jump & Run game based on Javascript and HTML Canvas.',
   'image' : 'assets/image/project_img/sharkie_mockup.png',
@@ -74,7 +74,30 @@ aboutMe:Array<any> = [
 'text': {
 'eng':'After completing my frontend part at the Developer Akademie, the next step is to get my first IT job. Meanwhile, I am working towards completing my backend part as well. In interaction with the self-study courses and the experience I am gaining at my job, the goal is to become a professional full-stack developer. My long-term motivation is to focus and specialize in backend technologies. Especially IT-Security is a theme I am very interested in.',
 'de':'Mit dem Abschluss des Front-End Teil der Developer Akademie, liegt mein Fokus zunächst darauf, meinen ersten Job in der IT zu erlangen. Während dessen bin ich dabei, den Back-End Teil zu absolvieren. Zusammen mit der Erfahrung in meinem Job, sollen meine Fähigkeiten als Fullstack Developer befestigt werden. Auf lange Sicht ist mein bisheriges Ziel, mich auf Back-End Technologien zu spezialisieren. Vor allem die IT-Security hat es mir angetan.'
-}}
+}}]
+
+skills: Array<object> =[
+  {'skill' : 'HTML',
+  'image' : 'assets/image/java script.png'},
+  {'skill' : 'CSS/SCSS',
+  'image' : 'assets/image/Group 205.png'},
+  {'skill' : 'JavaScript',
+  'image' : 'assets/image/javascript_logo.png'},
+  {'skill' : 'TypeScript',
+  'image' : 'assets/image/Typescript_logo_2020.svg.png'},
+  {'skill' : 'Angular',
+  'image' : 'assets/image/Angular_full_color_logo.svg.png'},
+  {'skill' : 'Google Firebase',
+  'image' : 'assets/image/google_firebase.png'},
+  {'skill' : 'Git/Github',
+  'image' : 'assets/image/Git-Icon-1788C 2.png'},
+  {'skill' : 'API/REST API',
+  'image' : 'assets/image/icons8-rest-api-80 2.png'},
+  {'skill' : 'Databases',
+  'image' : 'assets/image/icons8-database-52 2.png'},
+  {'skill' : 'SCRUM',
+  'image' : 'assets/image/Group 226.png'},
+
 ]
   constructor() { }
 }

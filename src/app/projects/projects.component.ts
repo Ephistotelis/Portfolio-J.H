@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { ProjectlistserviceService } from '../__projectlist/projectlistservice.service';
+import { DataService } from '../__DataService/Data.service';
 
 @Component({
   selector: 'app-projects',
@@ -9,7 +9,7 @@ import { ProjectlistserviceService } from '../__projectlist/projectlistservice.s
 export class ProjectsComponent implements OnInit {
   @Input() projectList:any;
   projects:Array<any> = [];
-  constructor(projectlist: ProjectlistserviceService) { 
+  constructor(projectlist: DataService) { 
     this.projects = projectlist.projects;
   }
 

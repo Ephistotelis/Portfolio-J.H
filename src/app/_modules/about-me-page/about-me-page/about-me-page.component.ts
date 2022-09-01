@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ProjectlistserviceService } from 'src/app/__projectlist/projectlistservice.service';
+import { DataService } from 'src/app/__DataService/Data.service';
 
 @Component({
   selector: 'app-about-me-page',
@@ -8,7 +8,7 @@ import { ProjectlistserviceService } from 'src/app/__projectlist/projectlistserv
 })
 export class AboutMePageComponent implements OnInit {
   language:string = 'eng'
-  constructor(public data: ProjectlistserviceService) { }
+  constructor(public data: DataService) { }
 
   ngOnInit(): void {
   }

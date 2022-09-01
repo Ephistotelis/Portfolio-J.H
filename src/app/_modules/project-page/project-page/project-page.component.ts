@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ProjectlistserviceService } from 'src/app/__projectlist/projectlistservice.service';
+import { DataService } from 'src/app/__DataService/Data.service';
 
 
 @Component({
@@ -11,7 +11,7 @@ export class ProjectPageComponent implements OnInit {
   projects:Array<any> = [];
   technologie:string = 'all'
   
-  constructor(projectlist: ProjectlistserviceService) {  
+  constructor(projectlist: DataService) {  
     this.projects = projectlist.projects;
   }
  

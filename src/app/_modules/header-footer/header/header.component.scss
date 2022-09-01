@@ -5,7 +5,10 @@
     height: 80px;
     position: sticky;
     top: 0;
-    opacity: 0.8;
+    //opacity: 0.8; var(--BaseBright);
+    background-color: rgb(24, 24, 35, 0.7);
+    backdrop-filter: blur( 3px);
+    -webkit-backdrop-filter: blur( 4px);
     z-index: 3;
     .logo {
         a {
@@ -49,8 +52,7 @@
         }
     }
     &:hover {
-        opacity: 1.0;
-        background-color: var(--BaseBright);
+        background-color: rgb(24, 24, 35, 1);
         box-shadow: 0 4px 2px -2px var(--BaseBrightShadow);
     }
     // mobil
