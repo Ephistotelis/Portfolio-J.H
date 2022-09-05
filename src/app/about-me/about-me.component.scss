@@ -1,6 +1,6 @@
 .midsection {
     display: flex;
-    height: 600px;
+    height: 700px;
     background-color: var(--white);
     color: var(--Base);
     position: relative;
@@ -14,7 +14,7 @@
     .bg-pic {
         position: absolute;
         right: 0;
-        height: 600px;
+        height: 700px;
         width: 50% !important;
         background-image: url("/assets/image/ME/Me_suite.jpeg");
         background-size: cover;

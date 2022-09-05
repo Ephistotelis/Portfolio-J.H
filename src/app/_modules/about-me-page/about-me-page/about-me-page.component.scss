@@ -52,7 +52,7 @@ h3 {
     }
     .picClass {
         position: absolute;
-        height: 500px;
+        height: 600px;
         width: 70%;
         background-size: cover;
         z-index: -1;
@@ -90,8 +90,9 @@ h3 {
     .row {
         display: flex;
         height: fit-content;
-        margin-bottom: 50px;
-        min-height: 500px;
+        margin-bottom: 250px;
+        margin-top: 250px;
+        min-height: 600px;
         .text {
             min-height: 400px !important;
             display: flex;
@@ -99,6 +100,7 @@ h3 {
             justify-content: start;
             background-color: rgba(0, 0, 0, 0.6);
             padding-right: 40px;
+            padding-top: 100px;
         }
     }
     .tgglBtn {
