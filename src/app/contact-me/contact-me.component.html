@@ -7,20 +7,25 @@
         </div>
     </div>
     <div class="parts top form">
-        <div>
-            <p>Name</p>
-            <input type="text" id="Name" autocomplete="off">
-        </div>
-        <div>
-            <p>Email</p>
-            <input type="text" id="Email" autocomplete="off">
-        </div>
-        <div>
-            <p>Request</p>
-            <textarea name="" id="" cols="30" rows="10" autocomplete="off"></textarea>
-        </div>
-        <div>
-            <button>Lets get started</button>
-        </div>
+        <form action="https://formsubmit.co/contact@joshua-herrmann.de" method="POST">
+            <div>
+                <p>Name</p>
+                <input type="text" id="Name" name="name" autocomplete="off" required>
+            </div>
+            <div>
+                <p>Email</p>
+                <input type="email" id="Email" name="email" autocomplete="off" required>
+            </div>
+            <div>
+                <p>Request</p>
+                <textarea name="" id="" cols="30" rows="10" name="message" autocomplete="off" required></textarea>
+            </div>
+            <div>
+                <button type="submit">Lets get started</button>
+            </div>
+            <input type="hidden" name="_next" value="https://joshua-herrmann.de">
+            <input type="hidden" name="_subject" value="New email from portfolio!">
+            <input type="hidden" name="_captcha" value="false">
+        </form>
     </div>
 </div>
