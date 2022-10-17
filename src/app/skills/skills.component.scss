@@ -26,10 +26,13 @@
         flex-direction: column;
     }
     .part1 {
-        width: 100%;
+        align-items: center !important;
+        width: 100% !important;
+        margin-bottom: 50px;
     }
     .part2 {
-        width: 100%;
+        width: 100% !important;
+        align-items: center !important;
     }
 }
 
@@ -38,7 +41,12 @@
         text-align: center;
     }
     .part1 {
-        align-items: center;
+        align-items: center !important;
+        width: 100% !important;
         margin-bottom: 50px;
+    }
+    .part2 {
+        width: 100% !important;
+        align-items: center !important;
     }
 }

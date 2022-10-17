@@ -31,6 +31,16 @@
     }
 }
 
+@media (max-width: 900px) {
+    .projects {
+        flex-direction: column;
+        text-align: center;
+        .sides {
+            width: 100%;
+        }
+    }
+}
+
 @media (max-width: 450px) {
     .projects {
         flex-direction: column;
