@@ -22,7 +22,17 @@
         }
         .impressum {
             a {
+                margin: 20px;
+                padding: 4px;
                 color: var(--grey_white);
+                &:hover {
+                    letter-spacing: 1px;
+                    font-weight: bold;
+                    color: var(--Base);
+                    background-color: rgba(250, 250, 250, 0.2);
+                    box-shadow: 0 0 10px 10px rgba(250, 250, 250, 0.2);
+                    ;
+                }
             }
         }
         .logos {
@@ -31,6 +41,11 @@
                 box-shadow: 0 0 10px 10px rgba(198, 198, 198, 0.2);
                 border-radius: 100%;
                 padding: 5px;
+                &:hover {
+                    background-color: rgba(250, 250, 250, 0.2);
+                    box-shadow: 0 0 10px 10px rgba(250, 250, 250, 0.2);
+                    ;
+                }
             }
         }
     }

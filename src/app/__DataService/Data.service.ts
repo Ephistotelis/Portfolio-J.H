@@ -45,7 +45,7 @@ aboutMe:Array<any> = [
 },
 'headerP2':{
   'eng':'You`re welcome to learn more about my story:',
-  'de':'Du bist willkommen mehr über meine Geschichte zu erfahren:'
+  'de':'Sei willkommen mehr über meine Geschichte zu erfahren:'
 }},
   {'titel': {
             'eng':'That is me:',

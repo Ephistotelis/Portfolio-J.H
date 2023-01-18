@@ -22,6 +22,10 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        .description,
+        .title {
+            text-align: center;
+        }
         .buttons {
             display: flex;
             justify-content: space-evenly;
