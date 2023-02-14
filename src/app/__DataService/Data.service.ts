@@ -28,11 +28,11 @@ export class DataService {
 'github_url' : 'https://github.com/AndreHehn/slackclone',
 'web_app_url' : 'http://slackclone.joshua-herrmann.de/',
 'technologie' : 'angular'},
-/* {'projectName' : 'Transport App',
-  'description' : 'Transport app for hospital',
-  'image' : 'assets/image/project_img/mockup_placeholder.png',
-  'github_url' : 'https://github.com/Ephistotelis',
-'web_app_url' : '#'} */]
+ {'projectName' : 'JOIN',
+  'description' : 'Kanban board app coded with Angular. Firestore authentication and database is used for login and tasks/userdetails.',
+  'image' : 'assets/image/project_img/mockup_JOIN_rdy.PNG',
+  'github_url' : 'https://github.com/JoshuaHerrmann/JOIN',
+'web_app_url' : 'http://join.joshua-herrmann.de/'} ]
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 aboutMe:Array<any> = [
   {'headerH3':{
